@@ -5,14 +5,18 @@ body {
   line-height: 1.5;
 }
 body, .app {
-  background: white;
+  /*color picker from w3school*/
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+h1 {
+  font-family: georgia;
 }
 
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
-  background: #2e7c31;
+  background: #CB3351;
   text-align: center;
 }
 .list-books-title h1 {
@@ -38,6 +42,8 @@ body, .app {
 
 .bookshelf-title {
   border-bottom: 1px solid #dedede;
+  text-align: center;
+  font-family: georgia;
 }
 .bookshelf-books {
   text-align: center;
