@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import './App.css'
 import { Route } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
-import './App.css'
 
 //Components
 import SearchPage from './components/SearchPage'
@@ -32,7 +32,7 @@ export default class BooksApp extends Component {
       <div className="app">
           <Route
             exact
-            path="/SearchPage"
+            path="/search"
             render={({history}) => (
               <SearchPage
                 myBooks={this.state.books}

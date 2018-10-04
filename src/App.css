@@ -5,8 +5,7 @@ body {
   line-height: 1.5;
 }
 body, .app {
-/*background image from https://htmlcolorcodes.com/tutorials/css-background-color/*/
-  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 /* main page */
@@ -14,7 +13,7 @@ body, .app {
 .list-books-title {
   padding: 10px 0;
   text-align: center;
-  text-decoration: un
+  text-decoration: underline;
 }
 .list-books-title h1 {
   font-weight: 400;
@@ -169,8 +168,8 @@ body, .app {
 /* book cover */
 
 .book-cover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background: #eee;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+
 }
 .book-cover-title {
   padding: 20px 10px 0;
