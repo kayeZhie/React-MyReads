@@ -3,7 +3,6 @@ import './App.css'
 import { Route } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
 
-//Components
 import SearchPage from './components/SearchPage'
 import BookList from './components/BookList'
 
@@ -18,7 +17,8 @@ export default class BooksApp extends Component {
   }
 
   fetchMyBooks = () => {
-    BooksAPI.getAll().then((books) => this.setState({ books }))
+    BooksAPI.getAll().then((books) => 
+      this.setState({ books }))
   }
 
   changeShelf = (id,shelf) => {
@@ -37,11 +37,11 @@ export default class BooksApp extends Component {
                 }}
               />
             )}
-     />
+      />
          	<Route exact path="/"
             	render={()=>(<BookList
                 books={this.state.books}
-                onShelfChange={(id,shelf)=>{
+                onShelfChange={(id,shelf) => {
                   this.changeShelf(id,shelf)
                 }}
               />
