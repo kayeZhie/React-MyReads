@@ -32,7 +32,7 @@ export default class BooksApp extends Component {
       <div className="app">
           <Route
             exact
-            path="/search"
+            path="/SearchPage"
             render={({history}) => (
               <SearchPage
                 myBooks={this.state.books}
