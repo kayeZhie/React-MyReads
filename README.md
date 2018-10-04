@@ -10,7 +10,7 @@ This is an application created with ReactJS. This projects demonstrates the unde
 1. To install the application clone this git repository
 
 ```
-$ git clone https://github.com/kayeZhie/React-MyReads.git 
+$ git clone [https://github.com/kayeZhie/React-MyReads.git](https://github.com/kayeZhie/React-MyReads.git) 
 ```
 
 2. Go into the application folder
