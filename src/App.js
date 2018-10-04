@@ -28,27 +28,18 @@ export default class BooksApp extends Component {
   }
 
   render() {
-    return (
-      <div className="app">
-          <Route
-            exact
-            path="/search"
-            render={({history}) => (
-              <SearchPage
-                myBooks={this.state.books}
-                onShelfChange={(id,shelf)=>{
-                  this.changeShelf(id,shelf)
+  	return (
+    	<div className="app">
+        	<Route exact path="/search"
+            	render={({history}) => ( <SearchPage myBooks={this.state.books}
+                onShelfChange={(id,shelf) => {this.changeShelf(id,shelf)
                   history.push('/')
                 }}
               />
             )}
-          />
-
-          <Route
-            exact
-            path="/"
-            render={()=>(
-              <BookList
+     />
+         	<Route exact path="/"
+            	render={()=>(<BookList
                 books={this.state.books}
                 onShelfChange={(id,shelf)=>{
                   this.changeShelf(id,shelf)
