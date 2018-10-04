@@ -5,5 +5,6 @@ import './index.css'
 
 import { BrowserRouter} from 'react-router-dom'
 
+//route component inside browser router//
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, 
 	document.getElementById('root'))

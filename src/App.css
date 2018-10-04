@@ -3,10 +3,12 @@ html, body, .root {
 }
 body {
   line-height: 1.5;
+
 }
 body, .app {
   /*color picker from w3school*/
-  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(red, orange, yellow, blue, green, indigo, violet);
+  
 }
 h1 {
   font-family: georgia;
@@ -32,6 +34,7 @@ h1 {
 
 .bookshelf {
   padding: 0 10px 20px;
+  color: white;
 }
 
 @media (min-width: 600px) {
