@@ -11,6 +11,10 @@ This is an application created with ReactJS. This projects demonstrates the unde
 
 ```
 $ git clone [github repository](https://github.com/kayeZhie/React-MyReads) 
+<<<<<<< HEAD
+=======
+```
+>>>>>>> 1a4e36f90342fe44518376aed43dca3473d9d980
 
 2. Go into the application folder
 
@@ -33,4 +37,5 @@ $ npm start
 5. The app will run *locally* on `port: 3000` or simply go to `http://localhost:3000` in a your browser
 
 **IMPORTANT**: `Node JS` and `NPM (Node Package Manager)` is **required** to install and run the application. Visit [Node.js](https://nodejs.org/) for more information.
+
 
