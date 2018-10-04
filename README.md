@@ -1,14 +1,16 @@
 # MyReads Project
 
-A [React.js]() bookshelf app that allows you to select and categorize books you have read, currently reading, or want to read.
+My Reads is a bookshelf app that allows you to select and categorize books you have read, currently reading, or want to read.
+
+This is an application created with ReactJS. This projects demonstrates the understanding of props, states, Components, JSX, AJAX, and JavaScript(ECMAScript) 6.
+
 
 ## Installation and Launch
 
 1. To install the application clone this git repository
 
 ```
-$ git clone https://github.com/kayeZhie/React-MyReads.git 
-```
+$ git clone [github repository](https://github.com/kayeZhie/React-MyReads) 
 
 2. Go into the application folder
 
