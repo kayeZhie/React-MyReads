@@ -24,7 +24,7 @@ export default class SearchPage extends Component {
   }
 
   updateQuery = (event) => {
-    const value = event.target.value.trim()
+    const value = event.target.value
     this.setState({query: value})
     this.searchData(value)
   }
@@ -45,7 +45,6 @@ export default class SearchPage extends Component {
       this.setState({books: [], query: ''})
     }
   }
-
   static propTypes = {
     myBooks: PropTypes.arrayOf(PropTypes.shape({
       title: PropTypes.string.isRequired,
