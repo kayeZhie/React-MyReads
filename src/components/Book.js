@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
-import { PropTypes }  from 'prop-types'
 
 export default class Book extends Component {
-  static propTypes = {
-    imageURL: PropTypes.object.isRequired,
-    title: PropTypes.string.isRequired,
-    author: PropTypes.array,
-    shelf: PropTypes.string.isRequired,
-    onShelfChange: PropTypes.func.isRequired
-  }
-
   changeShelf = (e) => {
     this.props.onShelfChange(e.target.value)
   }

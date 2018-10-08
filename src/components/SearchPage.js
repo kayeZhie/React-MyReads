@@ -57,8 +57,7 @@ export default class SearchPage extends Component {
   }
 
   render() {
-    const books = this.state.books
-    const query = this.state.query
+    const { books, query } = this.state;
     return (
       <div>
         <div className="search-books">
